@@ -19,7 +19,8 @@ This will generate:
 - `~/.ssh/id_rsa` (private key)
 - `~/.ssh/id_rsa.pub` (public key)
 - to check these files you can run command - ll .ssh/
-- [dnaldurgkar@linserv01 ~]$ ll .ssh/
+```bash
+[dnaldurgkar@linserv01 ~]$ ll .ssh/
 total 20
 -rw-------. 1 dnaldurgkar dnaldurgkar  747 Jun 14 07:51 authorized_keys
 -rw-------. 1 dnaldurgkar dnaldurgkar 3389 Jun 14 07:55 id_rsa
@@ -27,6 +28,7 @@ total 20
 -rw-------. 1 dnaldurgkar dnaldurgkar  837 Jun 14 07:52 known_hosts
 -rw-r--r--. 1 dnaldurgkar dnaldurgkar   95 Jun 14 07:52 known_hosts.old
 [dnaldurgkar@linserv01 ~]$
+```
 
 
 ---
